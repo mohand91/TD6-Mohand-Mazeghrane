@@ -1,0 +1,51 @@
+body {
+    background-color: #E4E4E4;
+}
+
+h1 {
+    color:grey;
+    border-bottom:solid;
+}
+
+.menu {
+    margin:0px;
+    padding:0px;
+}
+
+.menu .menu-deroulant {
+    display: inline-block;
+    position: relative;
+    padding: 15 50 15 10;
+    /*border-right: solid;*/ 
+}
+
+.menu .menu-deroulant:hover {
+    background-color: #FFF4F8
+}
+
+.menu .menu-deroulant a {
+    text-decoration: none;
+}
+
+.menu .sous-menu  {
+    display: block;
+    position: absolute;
+    visibility:hidden;
+    left:110px;
+    top:-8px;
+    padding:10px;
+}
+
+.menu .menu-deroulant:hover .sous-menu {
+    visibility:visible;
+}
+
+.menu .sous-menu li:hover {
+    background-color:#FFD8E8; }
+
+.menu .sous-menu li {
+    padding:0;
+    display:inline-block;
+    width:100px;
+}
+
